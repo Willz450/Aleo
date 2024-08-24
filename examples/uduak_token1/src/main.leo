@@ -1,11 +1,11 @@
 // This example demonstrates an example of a minting and transferring a token in Leo.
-program simple_token.aleo {
+program uduak_token1.aleo {
     // The `Token` record datatype.
     record Token {
         // The token owner.
         owner: address,
         // The token amount.
-        amount: u64,mint
+        amount: u64,
     }
 
     // The `mint` function initializes a new record with the
@@ -43,3 +43,4 @@ program simple_token.aleo {
         return (remaining, transferred);
     }
 }
+
